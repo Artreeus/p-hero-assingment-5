@@ -45,7 +45,6 @@ header li a {
 }
 
 .banner {
-
   border-radius: 16px;
   background: url(images/banner.png);
   background-size: cover;
@@ -121,5 +120,103 @@ header li a {
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
+}
 
+.overall .right .name img {
+  width: 68.571px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.overall .right .name-2 h1 {
+  color: var(--base-black, #030712);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.overall .right .name-2 p {
+  color: rgba(3, 7, 18, 0.6);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.overall .right .name-3 button {
+  width: 180px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(29, 209, 0, 0.15);
+  color: #1dd100;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overall .left h1 {
+  color: var(--base-black, #030712);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+
+.overall .left h1 span {
+  color: var(--base-black, rgba(3, 7, 18, 0.6));
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.overall .info {
+  width: 750px;
+  height: 258px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #f7f8f8;
+}
+
+.overall .info .drop-btn {
+  width: 232px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.05);
+}
+
+.overall .info span {
+  color: rgba(3, 7, 18, 0.6);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.overall .info h1 {
+  color: var(--base-black, #030712);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.overall .info .one,
+.two {
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+  padding-bottom: 30px;
+  margin-top: 20px;
 }
