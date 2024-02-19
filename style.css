@@ -123,6 +123,9 @@ header li a {
   margin-top: 30px;
 }
 
+
+/* overall section css  */
+
 .overall .right .name img {
   width: 68.571px;
   height: 48px;
@@ -240,6 +243,9 @@ header li a {
 .selected {
   background-color: #1dd100 !important;
 }
+
+
+/* Ticket section booking css  */
 
 .down h1 {
   color: var(--base-black, #030712);
@@ -362,6 +368,7 @@ header li a {
   line-height: normal;
 }
 
+/* modal section css  */
 
 .modal h3 {
   color: #4A4A4A;
