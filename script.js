@@ -86,5 +86,4 @@ function applyCoupon() {
   couponInput.disabled = true;
   document.getElementById('apply-coupon').disabled = true;
   document.getElementById('coupon-section').style.display = 'none';
-  alert('Coupon applied successfully!');
 }
