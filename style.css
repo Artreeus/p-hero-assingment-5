@@ -45,6 +45,8 @@ header li a {
   padding-left: 56px;
 }
 
+/* banner section css  */
+
 .banner {
   border-radius: 16px;
   background: url(images/banner.png);
@@ -97,6 +99,8 @@ header li a {
   font-weight: 700;
   margin-top: 30px;
 }
+
+/* offer section css */
 
 .offer-section h1 {
   color: #030712;

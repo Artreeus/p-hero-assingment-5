@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
       seat.classList.remove('selected');
       selectedSeats--;
       totalPriceElement.textContent = parseInt(totalPriceElement.textContent) - seatPrice;
-
       const seatNumber = parseInt(seat.getAttribute('data-seat-number'));
       const index = selectedSeatNumbers.indexOf(seatNumber);
       if (index !== -1) {
@@ -28,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
       seat.classList.add('selected');
       selectedSeats++;
       totalPriceElement.textContent = parseInt(totalPriceElement.textContent) + seatPrice;
-
       const seatNumber = parseInt(seat.getAttribute('data-seat-number'));
       selectedSeatNumbers.push(seatNumber);
       updateSeatNumber();
@@ -67,11 +65,13 @@ document.addEventListener('DOMContentLoaded', function () {
 function applyCoupon() {
   const couponInput = document.getElementById('coupon');
   const grandTotalElement = document.getElementById('grand-total');
+  const couponCode = couponInput.value;
+
   const totalPrice = parseFloat(document.getElementById('total-price').innerText);
   let discountedPrice = totalPrice;
 
   switch (couponCode) {
-    case 'New15':
+    case 'NEW15':
       discountedPrice = totalPrice * 0.85;
       break;
     case 'Couple 20':
