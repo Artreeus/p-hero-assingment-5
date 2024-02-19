@@ -151,7 +151,7 @@ line-height: 36px;
   line-height: 180%; /* 57.6px */
 }
 
-.cup .c-right span{
+.c-up .c-right span{
   color:  rgba(3, 7, 18, 0.40);
 font-family: Raleway;
 font-size: 20px;
@@ -210,7 +210,7 @@ line-height: 36px;
   line-height: 180%; /* 57.6px */
 }
 
-.c-up .c-down-right span{
+.c-down .c-down-right span{
   color:  rgba(3, 7, 18, 0.40);
 font-family: Raleway;
 font-size: 20px;
