@@ -85,9 +85,6 @@ function applyCoupon() {
   const couponInput = document.getElementById('coupon');
   const grandTotalElement = document.getElementById('grand-total');
 
-  // Get the entered coupon code and convert it to lowercase for case-insensitivity
-  const couponCode = couponInput.value.toLowerCase();
-
   // Get the current total price
   const totalPrice = parseFloat(document.getElementById('total-price').innerText);
 
@@ -95,11 +92,11 @@ function applyCoupon() {
   let discountedPrice = totalPrice;
 
   switch (couponCode) {
-      case 'new15':
+      case 'New15':
           // Apply 15% discount for 'new15'
           discountedPrice = totalPrice * 0.85;
           break;
-      case 'couple20':
+      case 'Couple 20':
           // Apply 20% discount for 'couple20'
           discountedPrice = totalPrice * 0.8;
           break;
@@ -117,6 +114,5 @@ function applyCoupon() {
 
   // Hide the coupon section
   document.getElementById('coupon-section').style.display = 'none';
-
   alert('Coupon applied successfully!');
 }
