@@ -100,6 +100,124 @@ header li a {
   margin-top: 30px;
 }
 
+
+/* coupon section css  */
+.c-up {
+  height: 220px;
+  width: 500px;
+  border-radius: 16px;
+  background: url(images/Rectangle\ 8.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-up .c-left h1{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 90% */
+}
+
+.c-up .c-left p{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+}
+
+.c-up .c-left span{
+  color: rgba(3, 7, 18, 0.50);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+
+.c-up .c-right h1{
+  color:  #030712;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 57.6px */
+}
+
+.cup .c-right span{
+  color:  rgba(3, 7, 18, 0.40);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%;
+}
+
+
+.c-down {
+  height: 220px;
+  width: 500px;
+  border-radius: 16px;
+  background: url(images/Rectangle\ 8\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-down .c-down-left h1{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 90% */
+}
+
+.c-down .c-down-left p{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+}
+
+.c-down .c-down-left span{
+  color: rgba(3, 7, 18, 0.50);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+
+.c-down .c-down-right h1{
+  color:  #030712;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 57.6px */
+}
+
+.c-up .c-down-right span{
+  color:  rgba(3, 7, 18, 0.40);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%;
+}
 /* offer section css */
 
 .offer-section h1 {
